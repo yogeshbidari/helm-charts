@@ -35,7 +35,7 @@ Configuration
 | Parameter                                                                   | Description                                                                                                        | Default                         |
 | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------| ------------------------------- |
 | **ReplicaCount**                                                            |
-| `replicaCount`                                                              | Replica of each service to be deployed                                                                                               | `1`                             |
+| `replicaCount`                                                              | Replica of each pod to be deployed                                                                                               | `1`                             |
 | **Namespace**                                                            |
 | `namespace`                                                              | Namespace where application to be deployed                                                                                              | `nil`                             |
 | **Environment**                                                            |
