@@ -15,15 +15,15 @@ This Helm chart installs HDFS on kubernetes cluster
 
 Install the hdfs helm chart with a release name my-release:
 
-helm install my-release hdfs/
+> helm install my-release hdfs/
 
 ## Install with custom values.yaml
 
-helm install my-release hdfs/ -f values.yaml
+> helm install my-release hdfs/ -f values.yaml
 
 
 ## Uninstallation
 
 To uninstall/delete the my-release deployment:
 
-helm uninstall my-release
+> helm uninstall my-release
