@@ -44,7 +44,7 @@ Configuration
 | `image.repository`                                                          |  Image repository name                                                                                                    | `nil`                   |
 | `image.tag`                                                                   |  Image tag                                                                                                     | `nil`                        |
 | `image.pullPolicy`                                                          |  Image pull policy                                                                                             | `nil`                  |
-| `image.pullSecretName`                                                          |  Image pull secret name                                                                                          | `nil`                           |
+| `imagePullSecrets`                                                          |  Image pull secret name                                                                                          | `nil`                           |
 | **Master Details**                                                            |
 | `master.name`                                                              |  Name of master-hdfs to be deployed                                                                                             | `worker-hdfs`                             |
 | **SecurityContext**                                                         |
